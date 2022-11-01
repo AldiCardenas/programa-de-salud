@@ -1,0 +1,122 @@
+/*PAGINA DE INICIO*/
+body{
+    background-color: #DFF6FF;
+}
+
+/*texto*/
+h1{
+    text-transform:uppercase;
+    color: #093c50;
+    text-align:left;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    top: 250px; 
+    left: 60px;
+}
+h3{
+    text-transform:inherit;
+    color: #093c50;
+    text-align:left;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    top: 320px; 
+    left: 60px;}
+
+/*barra de navegacion*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #06283D;
+  }
+  
+  li {
+    float: right ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #06283D;
+  }
+  .logo{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 25px;
+
+  }
+/*formas iniciar sesion*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+
+
+   
+  .menu{
+    width: 105%;
+    height: 50vh;
+    padding: 230px;
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+   
+
+  }
+   
+  .ingresar h2{
+    color:#06283D;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+   
+  .ingresar button i{
+    position: absolute;
+    top: 12px; 
+    left: 12px;
+  }
+   
+  .ingresar button{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 15px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+  }
+   
+  .ingresar .medico{
+    background: #256D85;
+    border-style:none;
+    border-radius: 50px;
+    color: #fff;
+    font-size:25px ;
+  }
+   
+  .ingresar .paciente{
+    background: #256D85;
+    border-style: none;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 25px;
+  }
+
+ 
