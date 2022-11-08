@@ -3,7 +3,43 @@ body {
     padding: 0;
     background-color: #DFF6FF
   }
+  /* Nav Bar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #06283D;
+  }
   
+  li {
+    float: right ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #06283D;
+  }
+  
+  .logo{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 25px;
+
+  }
   .login-box {
     width: 320px;
     height: 420px;
@@ -37,6 +73,7 @@ body {
   .login-box input {
     width: 100%;
     margin-bottom: 20px;
+    
   }
   
   .login-box input[type="text"], .login-box input[type="password"] {
@@ -48,7 +85,7 @@ body {
     color: #fff;
     font-size: 16px;
   }
-  
+ 
   .login-box input[type="submit"] {
     border: none;
     outline: none;
@@ -64,7 +101,32 @@ body {
     background: #fdfeff;
     color: #000;
   }
-  
+
+/*
+.Boton i{
+  position: absolute;
+  top: 12px; 
+  left: 12px;
+}
+ 
+
+.Boton{
+  width: 100%;
+  margin: 15px 0px;
+  padding: 15px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+}
+ 
+.Boton{
+  background: #256D85;
+  border-style:none;
+  border-radius: 50px;
+  color: #fff;
+  font-size:25px ;
+}
+*/
   .login-box a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif ;
@@ -76,3 +138,4 @@ body {
   .login-box a:hover {
     color: #fff;
   }
+  
